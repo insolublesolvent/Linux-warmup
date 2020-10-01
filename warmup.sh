@@ -15,8 +15,11 @@ cat /proc/cpuinfo
 # Memory info
 cat /proc/meminfo
 
-# Update all packages
+# Update all packages in Rpm
 yum update -y
+
+# updating all packages in debian
+apt update -y
 
 # installing lvm packages
 yum install lvm2 -y
